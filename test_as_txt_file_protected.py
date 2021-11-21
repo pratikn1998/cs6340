@@ -11,5 +11,14 @@ class CS6340:
     
 
     def print_name(self):
+        
+        print(self._first_name + self._last_name)
+    def get_grade(self):
 
-        print(self.__first_name + self.__last_name)
+        return self._grade
+    def get_last_name(self):
+
+        return self._last_name
+    def get_first_name(self):
+
+        return self._first_name
