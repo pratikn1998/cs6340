@@ -6,3 +6,7 @@ class CS6340:
     
     def print_name(self):
         print(self.first_name + self.last_name)
+
+student = CS6340("Rishabh", "Ghora", "A")
+student.first_name = "Pratik"
+print(student.first_name)
